@@ -1,6 +1,9 @@
+const tailwindcss = require("tailwindcss");
+
 module.exports = {
-    plugin: {
+    plugins: {
         tailwindcss: {},
+        //'@tailwindcss/jit': {},
         autoprefixer: {},
     }
 }
